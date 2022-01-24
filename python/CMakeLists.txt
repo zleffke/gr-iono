@@ -32,7 +32,7 @@ endif()
 GR_PYTHON_INSTALL(
     FILES
     __init__.py
-    DESTINATION ${GR_PYTHON_DIR}/iono
+    usrp_ntp_pps_sync.py DESTINATION ${GR_PYTHON_DIR}/iono
 )
 
 ########################################################################

@@ -1,0 +1,24 @@
+id: iono_usrp_ntp_pps_sync
+label: usrp_ntp_pps_sync
+category: '[iono]'
+
+templates:
+  imports: import iono
+  make: iono.usrp_ntp_pps_sync(self, ${usrp_id}, ${verbose})
+
+parameters:
+-   id: usrp_id
+    label: USRP ID
+    dtype: string
+    default: uhd_usrp_source_0
+-   id: verbose
+    label: Verbose
+    dtype: bool
+    default: False
+    
+inputs:
+-   domain: message
+    id: in
+    optional: true
+
+file_format: 1

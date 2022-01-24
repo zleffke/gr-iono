@@ -39,4 +39,5 @@ except module_not_found_error:
     pass
 
 # import any pure python here
+from .usrp_ntp_pps_sync import usrp_ntp_pps_sync
 #

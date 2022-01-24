@@ -19,5 +19,5 @@
 # Boston, MA 02110-1301, USA.
 
 install(FILES
-    DESTINATION share/gnuradio/grc/blocks
+    iono_usrp_ntp_pps_sync.block.yml DESTINATION share/gnuradio/grc/blocks
 )
